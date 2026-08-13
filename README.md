@@ -17,6 +17,9 @@ about.html            About
 service-areas.html    Service areas
 faq.html              FAQ
 contact.html          Contact
+free-website-thanks.html
+                      Post-submit confirmation for the free-website
+                      form (noindex, not in sitemap)
 404.html              Error page
 css/styles.css        All styling
 js/main.js            All scripting
@@ -25,9 +28,12 @@ robots.txt            Points at sitemap.xml
 sitemap.xml           Lists the 8 public pages
 ```
 
-All 8 pages listed in `sitemap.xml` are present. Every internal link and
-asset reference resolves to a file in this repo — nothing points at a
-missing file.
+All 8 pages listed in `sitemap.xml` are present, plus two pages that are
+deliberately outside it (`404.html` and `free-website-thanks.html`). Every
+internal link and asset reference resolves to a file in this repo, as does
+the one page reference that lives in a form value rather than a link — the
+`_next` field in `free-website.html`, which sends the visitor to
+`free-website-thanks.html` after a successful submit.
 
 ## Previewing locally
 
