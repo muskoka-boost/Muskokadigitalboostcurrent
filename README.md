@@ -50,5 +50,34 @@ Then open http://localhost:8000.
 - Contact details are duplicated in several places: the JSON-LD
   `ProfessionalService` block in `index.html`, the page bodies, and an
   email-reveal handler in `js/main.js`. Update all of them together.
-- `sitemap.xml` carries `lastmod` dates — refresh them when you change a
-  page.
+- `sitemap.xml` lists only `changefreq` and `priority` — there are no
+  `lastmod` dates to keep in sync. Add a new page there when you create one.
+
+## Deploying to GitHub Pages (staging)
+
+`.nojekyll` is committed, so Pages serves the files as-is instead of
+running them through Jekyll.
+
+This branch is set up to serve as a **staging copy** at
+`muskoka-boost.github.io/Muskokadigitalboostcurrent/`, leaving the live
+LiteSpeed site alone. Every link and asset reference is relative, so the
+site works correctly under that subpath — verified by serving it from a
+`/Muskokadigitalboostcurrent/` prefix and rendering it in a browser.
+
+There is no `CNAME` file. Adding one claims the custom domain for Pages,
+so leave it absent until you actually intend to move hosting; the Pages
+settings UI writes that file itself when you set a custom domain.
+
+Three things behave differently on staging than in production:
+
+- **Both forms post to the real Formspree endpoint.** A test submission
+  from the staging site lands in the real inbox alongside genuine leads.
+- **The free-website form redirects off staging.** Its `_next` field is
+  the absolute production URL, so a successful submit sends the visitor
+  to the live site's thank-you page, not the staging one.
+- **Canonical tags point at the production domain** on every page. That
+  is what stops the staging copy from competing with the real site in
+  search, so keep them pointing there. Note that this repo's `robots.txt`
+  has no effect on a project site — crawlers only read `robots.txt` at
+  the domain root (`muskoka-boost.github.io/robots.txt`), which this
+  repository does not control. The canonicals are the actual protection.
