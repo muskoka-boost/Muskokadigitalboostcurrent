@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Website for Your Muskoka Business | Muskoka Digital Boost</title>
+  <meta name="description" content="We're building 5 free websites for local Muskoka and Simcoe County businesses. Custom design and build at no cost, and the site is yours to keep. Apply for one of the 5 spots.">
+  <link rel="canonical" href="https://muskokadigitalboost.ca/free-website.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Muskoka Digital Boost">
+  <meta property="og:locale" content="en_CA">
+  <meta property="og:title" content="Free Website for Your Muskoka Business">
+  <meta property="og:description" content="We're building 5 free websites for local Muskoka businesses. Custom design and build at no cost. Apply for one of the 5 spots.">
+  <meta property="og:url" content="https://muskokadigitalboost.ca/free-website.html">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is the free website really free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. The design and build are free — normally $500 to $1,200. Hosting with us is optional at a discounted $10 per month for these five builds, and you are free to host the site anywhere you like instead." }
+      },
+      {
+        "@type": "Question",
+        "name": "What does Muskoka Digital Boost get out of it?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Portfolio work and local word of mouth. We ask for an honest review and permission to feature the finished site in our portfolio." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I own the free website?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. The site is yours on your own domain. There is no contract and no cancellation fee, and we hand over the files whenever you ask for them." }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does the free website take to build?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Most sites go live 7 to 14 days after we have your photos and business details." }
+      }
+    ]
+  }
+  </script>
+  <style>
+    /* ── Page-specific additions (kept out of shared styles.css) ── */
+    .included-panel { background: #fff; border: 2px solid var(--blue-100); border-radius: var(--radius-lg); padding: 34px; box-shadow: var(--shadow-card); }
+    .included-panel h3 { font-size: 24px; margin-bottom: 20px; }
+    .included-panel .checklist li { font-size: 15px; padding: 3px 0; }
+
+    .catch-box { background: var(--blue-50); border: 1px solid var(--blue-100); border-left: 4px solid var(--blue-600); border-radius: var(--radius); padding: 24px 26px; }
+    .catch-box h3 { font-size: 17px; margin-bottom: 12px; }
+    .catch-box p { color: var(--gray-600); font-size: 14.5px; margin-bottom: 12px; }
+    .catch-box p:last-child { margin-bottom: 0; }
+
+    .fit-tile { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
+    .fit-tile .emoji { font-size: 26px; margin-bottom: 12px; }
+    .fit-tile h3 { font-size: 16px; margin-bottom: 7px; }
+    .fit-tile p { color: var(--gray-500); font-size: 14px; }
+
+    .step-row { display: grid; gap: 20px; grid-template-columns: 1fr; }
+    @media (min-width: 900px) { .step-row { grid-template-columns: repeat(4, 1fr); } }
+    .step { background: #fff; border: 1px solid var(--blue-100); border-radius: var(--radius); padding: 26px; }
+    .step .n { font-family: 'DM Serif Display', Georgia, serif; font-size: 34px; color: var(--blue-200); line-height: 1; margin-bottom: 12px; }
+    .step h3 { font-size: 16px; margin-bottom: 7px; }
+    .step p { color: var(--gray-500); font-size: 14px; }
+
+    .apply-card { background: #fff; border: 2px solid var(--blue-100); border-radius: var(--radius-lg); padding: 34px; box-shadow: 0 20px 50px rgba(30, 58, 138, 0.12); }
+    .radio-row { display: flex; flex-wrap: wrap; gap: 10px; }
+    .radio-row label {
+      display: inline-flex; align-items: center; gap: 8px; cursor: pointer;
+      background: #f9fafb; border: 1px solid var(--line); border-radius: 999px;
+      padding: 9px 16px; font-size: 14px; font-weight: 500; color: var(--gray-600);
+      text-transform: none; letter-spacing: 0; margin-bottom: 0;
+      transition: border-color 0.2s, background 0.2s, color 0.2s;
+    }
+    .radio-row label:has(input:checked) { border-color: var(--blue-500); background: var(--blue-50); color: var(--blue-700); }
+
+    /* Stacked radios for longer options */
+    .radio-stack { display: grid; gap: 10px; }
+    .radio-stack label {
+      display: flex; gap: 11px; align-items: flex-start; cursor: pointer;
+      background: #f9fafb; border: 1px solid var(--line); border-radius: 12px;
+      padding: 13px 16px; font-size: 14px; font-weight: 500; color: var(--gray-600);
+      text-transform: none; letter-spacing: 0; margin-bottom: 0; line-height: 1.5;
+      transition: border-color 0.2s, background 0.2s, color 0.2s;
+    }
+    .radio-stack label:has(input:checked) { border-color: var(--blue-500); background: var(--blue-50); color: var(--blue-700); }
+    .radio-stack input { width: auto; flex-shrink: 0; margin-top: 2px; accent-color: var(--blue-600); }
+
+    /* Multi-select checkbox grid */
+    .check-grid { display: grid; grid-template-columns: 1fr; gap: 9px; }
+    @media (min-width: 560px) { .check-grid { grid-template-columns: 1fr 1fr; } }
+    .check-grid label {
+      display: flex; gap: 10px; align-items: center; cursor: pointer;
+      background: #f9fafb; border: 1px solid var(--line); border-radius: 12px;
+      padding: 11px 14px; font-size: 13.5px; font-weight: 500; color: var(--gray-600);
+      text-transform: none; letter-spacing: 0; margin-bottom: 0;
+      transition: border-color 0.2s, background 0.2s, color 0.2s;
+    }
+    .check-grid label:has(input:checked) { border-color: var(--blue-500); background: var(--blue-50); color: var(--blue-700); }
+    .check-grid input { width: auto; flex-shrink: 0; accent-color: var(--blue-600); }
+
+    /* Form section divider */
+    .form-section { margin: 30px 0 22px; padding-top: 26px; border-top: 1px solid var(--line); }
+    .form-section:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+    .form-section h3 { font-size: 16px; margin-bottom: 4px; }
+    .form-section p { color: var(--gray-500); font-size: 13.5px; }
+    .radio-row input { width: auto; }
+
+    /* CASL consent */
+    .consent { background: #f9fafb; border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 22px; }
+    .consent label { display: flex; gap: 12px; align-items: flex-start; cursor: pointer; text-transform: none; letter-spacing: 0; font-size: 13.5px; font-weight: 400; color: var(--gray-600); line-height: 1.55; margin-bottom: 0; }
+    .consent input[type="checkbox"] { width: 18px; height: 18px; flex-shrink: 0; margin-top: 2px; accent-color: var(--blue-600); cursor: pointer; }
+    .consent .fine { color: var(--gray-400); font-size: 12px; margin-top: 12px; padding-left: 30px; line-height: 1.55; }
+    .consent .fine a { color: var(--blue-600); text-decoration: underline; }
+
+    .hp { position: absolute; left: -9999px; opacity: 0; height: 0; overflow: hidden; }
+    .form-legend { display: block; font-size: 11.5px; font-weight: 600; color: var(--gray-500); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+    .privacy-note { color: var(--gray-400); font-size: 12.5px; text-align: center; margin-top: 14px; }
+
+    /* Sticky mobile CTA */
+    .sticky-cta {
+      position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
+      background: rgba(255,255,255,0.97); backdrop-filter: blur(12px);
+      border-top: 1px solid var(--line); padding: 12px 16px;
+      display: flex; gap: 10px; align-items: center;
+      box-shadow: 0 -6px 24px rgba(15, 23, 42, 0.08);
+    }
+    .sticky-cta .btn { flex: 1; padding: 13px 18px; }
+    .sticky-cta .tel { flex-shrink: 0; padding: 13px 16px; border: 2px solid var(--line); border-radius: 12px; font-size: 14px; font-weight: 700; color: var(--ink); }
+    @media (min-width: 900px) { .sticky-cta { display: none; } }
+    @media (max-width: 899px) { body { padding-bottom: 76px; } }
+  </style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="brand" aria-label="Muskoka Digital Boost — home">
+      <svg viewBox="0 0 110 95" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="0" y="72" width="18" height="18" rx="3" fill="#bfdbfe"/>
+        <rect x="24" y="48" width="18" height="42" rx="3" fill="#60a5fa"/>
+        <rect x="48" y="24" width="18" height="66" rx="3" fill="#2563eb"/>
+        <rect x="72" y="0" width="18" height="90" rx="3" fill="#1a2744"/>
+        <path d="M 4 68 Q 45 10 86 4" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+      </svg>
+      <span>
+        <span class="brand-name" style="display:block">Muskoka Digital Boost</span>
+        <span class="brand-tag" style="display:block">Web Development</span>
+      </span>
+    </a>
+    <div class="nav-links">
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="service-areas.html">Service Areas</a>
+      <a href="faq.html">FAQ</a>
+      <a href="free-website.html" class="nav-free" aria-current="page">Free Website</a>
+      <a href="contact.html" class="btn btn-primary" style="padding:11px 22px">Get a Free Quote</a>
+    </div>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">
+      <svg class="ico-bars" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      <svg class="ico-close" style="display:none" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="mob-menu">
+    <div class="mob-menu-inner">
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="service-areas.html">Service Areas</a>
+      <a href="faq.html">FAQ</a>
+      <a href="free-website.html" class="nav-free" aria-current="page">Free Website</a>
+      <a href="contact.html">Get a Free Quote</a>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+
+  <!-- ── HERO ── -->
+  <header class="hero">
+    <div class="grid-bg"></div>
+    <canvas id="particle-canvas" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <div class="hero-split">
+        <div class="hero-left">
+          <span class="hero-badge">
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            Applications open · Muskoka &amp; Simcoe County
+          </span>
+          <h1 class="serif">We're building 5 free websites for<br>
+            <span class="shimmer">local Muskoka businesses</span>
+          </h1>
+          <p class="hero-sub">A real, custom-built website — designed and coded at no cost, and yours to keep. We're an Orillia-based studio growing our local portfolio, and we'd rather build something great for five real businesses than talk about it.</p>
+          <div class="hero-ctas">
+            <a href="#apply" class="btn btn-light">Apply for a Free Website →</a>
+            <a href="#whats-free" class="btn btn-ghost">What's Actually Free?</a>
+          </div>
+          <div class="hero-stats">
+            <div><div class="num">5</div><div class="lbl">Spots available</div></div>
+            <div><div class="num">$0</div><div class="lbl">Design &amp; build</div></div>
+            <div><div class="num">7–14</div><div class="lbl">Days to launch</div></div>
+          </div>
+        </div>
+        <div class="hero-right float">
+          <div class="glass-card">
+            <span class="emoji" aria-hidden="true">🖥️</span>
+            <div><h3>A real custom site, not a template</h3><p>Designed and coded around your business — the same build we normally charge $500–$1,200 for.</p></div>
+          </div>
+          <div class="glass-card">
+            <span class="emoji" aria-hidden="true">🔍</span>
+            <div><h3>Built to be found on Google</h3><p>Local SEO foundations so Muskoka and Simcoe County customers actually turn up on your page.</p></div>
+          </div>
+          <div class="glass-card">
+            <span class="emoji" aria-hidden="true">📱</span>
+            <div><h3>Fast on every phone</h3><p>Most local searches happen on mobile. Your site will load in seconds and look right at any size.</p></div>
+          </div>
+          <div class="glass-card">
+            <span class="emoji" aria-hidden="true">🤝</span>
+            <div><h3>You own it outright</h3><p>Your website, your domain, host it wherever you like. No lock-in, no contract, no hostage situation.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       OFFER TERMS — this section is the actual deal. Edit here (and
+       the FAQ further down) if what you're offering changes.
+       ══════════════════════════════════════════════════════════════ -->
+  <section id="whats-free" class="section section-white" aria-labelledby="free-h">
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="accent-bar"></div>
+        <span class="eyebrow">The offer</span>
+        <h2 id="free-h" class="serif">What you get — and what it costs</h2>
+        <p>We'd rather be blunt about this up front than waste your time on a call.</p>
+      </div>
+
+      <div class="grid grid-2" style="align-items:start">
+        <div class="included-panel reveal d1">
+          <h3 class="serif">Included, at no charge</h3>
+          <ul class="checklist">
+            <li><span class="tick" aria-hidden="true">✓</span><span>Custom multi-page website, designed around your business</span></li>
+            <li><span class="tick" aria-hidden="true">✓</span><span>Hand-coded build — no page-builder bloat, no templates</span></li>
+            <li><span class="tick" aria-hidden="true">✓</span><span>Mobile, tablet and desktop layouts</span></li>
+            <li><span class="tick" aria-hidden="true">✓</span><span>Local SEO foundations and Google setup</span></li>
+            <li><span class="tick" aria-hidden="true">✓</span><span>Contact form wired straight to your inbox</span></li>
+            <li><span class="tick" aria-hidden="true">✓</span><span>Copywriting for every page</span></li>
+            <li><span class="tick" aria-hidden="true">✓</span><span>Launch, testing and full handover of the files</span></li>
+          </ul>
+        </div>
+
+        <div class="reveal d2" style="display:grid;gap:20px">
+          <div class="catch-box">
+            <h3>So what's the catch?</h3>
+            <p><strong>Hosting is optional.</strong> Your site has to live somewhere. You're welcome to host it wherever you like — or stay with us at a discounted <strong>$10/month</strong> for these five builds, which covers hosting, security updates, backups and small content edits. Either way the build is free.</p>
+            <p><strong>We'd like a testimonial.</strong> If you're happy with the result, we ask for an honest review and permission to show your site in our portfolio. That's the whole reason we're doing this.</p>
+            <p><strong>Only 5 spots.</strong> We build these properly, which takes real hours. Once the five are claimed, applications close.</p>
+          </div>
+          <div class="note-box">
+            <strong>No contract, no obligation.</strong> If you don't like what we build, you owe us nothing and you walk away. The site and its files are yours either way.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ══════════════════ END OFFER TERMS ══════════════════ -->
+
+  <!-- ── WHY ── -->
+  <section class="section section-dark" aria-labelledby="why-h">
+    <div class="container container-narrow" style="position:relative;z-index:2">
+      <div class="section-head center reveal">
+        <div class="accent-bar" style="background:var(--blue-400)"></div>
+        <span class="eyebrow">Why we're doing this</span>
+        <h2 id="why-h" class="serif">Honest answer: we want the portfolio.</h2>
+        <p>We're a small Orillia-based studio. The fastest way to earn work in a place like Muskoka isn't ads — it's five local businesses pointing at their website and saying "they built that." Five great sites is worth more to us than five small invoices, so we're trading the build cost for the proof.</p>
+      </div>
+      <div class="grid grid-3 reveal d1">
+        <div class="area-card">
+          <h3>Real, finished sites</h3>
+          <p>Not mockups or demos. Live websites with your content, on your domain, doing real work for your business.</p>
+        </div>
+        <div class="area-card">
+          <h3>Same standard as paid work</h3>
+          <p>The exact process our paying clients get — discovery, design, build, launch. Free doesn't mean rushed.</p>
+        </div>
+        <div class="area-card">
+          <h3>Local, in person if you like</h3>
+          <p>Based in Orillia, working across Muskoka and Simcoe County. You can call a person who answers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WHO WE'RE LOOKING FOR ── -->
+  <section class="section section-tint" aria-labelledby="fit-h">
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="accent-bar"></div>
+        <span class="eyebrow">Who we're looking for</span>
+        <h2 id="fit-h" class="serif">You're a good fit if…</h2>
+        <p>We're picking five businesses we can genuinely help — and that we'd be proud to show off.</p>
+      </div>
+      <div class="grid grid-4">
+        <div class="fit-tile reveal d1">
+          <div class="emoji" aria-hidden="true">📍</div>
+          <h3>You're local</h3>
+          <p>Operating in Muskoka, Orillia, Simcoe County or the surrounding area.</p>
+        </div>
+        <div class="fit-tile reveal d2">
+          <div class="emoji" aria-hidden="true">🛠️</div>
+          <h3>You have no site — or a bad one</h3>
+          <p>Trades, contractors, shops, services, tourism. The bigger the jump, the better the story.</p>
+        </div>
+        <div class="fit-tile reveal d3">
+          <div class="emoji" aria-hidden="true">💬</div>
+          <h3>You'll reply to emails</h3>
+          <p>We need photos, details and a bit of your time. Fast projects need responsive people.</p>
+        </div>
+        <div class="fit-tile reveal d4">
+          <div class="emoji" aria-hidden="true">⭐</div>
+          <h3>You'll say so if you like it</h3>
+          <p>An honest review and permission to feature the finished site — that's the trade.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── HOW IT WORKS ── -->
+  <section class="section section-white" aria-labelledby="how-h">
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="accent-bar"></div>
+        <span class="eyebrow">How it works</span>
+        <h2 id="how-h" class="serif">From application to live site</h2>
+      </div>
+      <div class="step-row">
+        <div class="step reveal d1">
+          <div class="n">01</div>
+          <h3>Apply below</h3>
+          <p>Three minutes. Tell us what your business does and why a website would move the needle for you.</p>
+        </div>
+        <div class="step reveal d2">
+          <div class="n">02</div>
+          <h3>We call you</h3>
+          <p>A short, no-pressure call within 24 hours to make sure it's a fit — both directions.</p>
+        </div>
+        <div class="step reveal d3">
+          <div class="n">03</div>
+          <h3>We build it</h3>
+          <p>You send photos and details, we design and code. You review a live preview before anything goes public.</p>
+        </div>
+        <div class="step reveal d4">
+          <div class="n">04</div>
+          <h3>You go live</h3>
+          <p>Launched on your domain in 7–14 days, wired to your inbox, and yours to keep.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── APPLICATION FORM ── -->
+  <section id="apply" class="section section-tint" aria-labelledby="apply-h">
+    <div class="container container-narrow">
+      <div class="section-head center reveal">
+        <div class="accent-bar"></div>
+        <span class="eyebrow">Apply</span>
+        <h2 id="apply-h" class="serif">Claim one of the 5 free websites</h2>
+        <p>Takes about three minutes. We reply to every application within 24 hours — yes or no.</p>
+      </div>
+
+      <div class="apply-card reveal d1">
+        <form id="apply-form" action="https://formspree.io/f/xdajpwvp" method="POST">
+          <!-- Formspree config -->
+          <input type="hidden" name="_subject" value="Free Website Application — Muskoka Digital Boost">
+          <input type="hidden" name="_next" value="https://muskokadigitalboost.ca/free-website-thanks.html">
+          <input type="hidden" name="_source" value="Landing Page — Free Website Campaign">
+
+          <!-- Attribution — filled from the URL by the script at the bottom of
+               this page. Tag your Meta ad links with utm_content=angle-a etc.
+               so each lead records which creative produced it. -->
+          <input type="hidden" name="ad_source" value="">
+          <input type="hidden" name="ad_campaign" value="">
+          <input type="hidden" name="ad_creative" value="">
+          <input type="hidden" name="ad_placement" value="">
+          <input type="hidden" name="click_id" value="">
+          <input type="hidden" name="referrer" value="">
+          <input type="hidden" name="submitted_from" value="">
+
+          <div class="hp" aria-hidden="true">
+            <label for="_gotcha">Leave this field empty</label>
+            <input type="text" id="_gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="form-section">
+            <h3>About your business</h3>
+            <p>So we know who we're talking to.</p>
+          </div>
+
+          <div class="form-group">
+            <label for="business_name">Business Name</label>
+            <input type="text" id="business_name" name="business_name" required placeholder="Smith &amp; Sons Contracting" autocomplete="organization">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first_name">First Name</label>
+              <input type="text" id="first_name" name="first_name" required placeholder="John" autocomplete="given-name">
+            </div>
+            <div class="form-group">
+              <label for="last_name">Last Name</label>
+              <input type="text" id="last_name" name="last_name" required placeholder="Smith" autocomplete="family-name">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="you@yourbusiness.com" autocomplete="email">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required placeholder="(705) 555-0000" autocomplete="tel">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="industry">What kind of business?</label>
+              <select id="industry" name="industry" required>
+                <option value="">Select one...</option>
+                <option>Trades &amp; contracting</option>
+                <option>Home &amp; property services</option>
+                <option>Retail shop</option>
+                <option>Restaurant, café or food</option>
+                <option>Tourism, resort or rental</option>
+                <option>Health, wellness or fitness</option>
+                <option>Professional services</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="location">Where are you based?</label>
+              <select id="location" name="location" required>
+                <option value="">Select one...</option>
+                <option>Orillia</option>
+                <option>Gravenhurst</option>
+                <option>Bracebridge</option>
+                <option>Huntsville</option>
+                <option>Barrie</option>
+                <option>Midland</option>
+                <option>Parry Sound</option>
+                <option>Collingwood</option>
+                <option>Elsewhere in Muskoka / Simcoe</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <span class="form-legend" id="site-legend">Do you have a website right now?</span>
+            <div class="radio-row" role="radiogroup" aria-labelledby="site-legend">
+              <label><input type="radio" name="has_website" value="No website at all" required> No, nothing yet</label>
+              <label><input type="radio" name="has_website" value="Has an outdated site"> Yes, but it's outdated</label>
+              <label><input type="radio" name="has_website" value="Has a site, wants better"> Yes, and it's alright</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="current_url">Current website address <span class="opt">(if you have one)</span></label>
+            <input type="text" id="current_url" name="current_url" placeholder="yourbusiness.ca" autocomplete="url">
+          </div>
+
+          <div class="form-group">
+            <label for="why">Why should we pick your business?</label>
+            <textarea id="why" name="why" rows="4" required placeholder="What do you do, who are your customers, and what would a proper website change for you? Plain English is fine — we're not marking grammar."></textarea>
+          </div>
+
+          <!-- ── Qualification: turns non-winners into warm leads ── -->
+          <div class="form-section">
+            <h3>What you're looking for</h3>
+            <p>Only five applicants get the free build — these answers let us come back to everyone else with something genuinely useful instead of a generic "sorry."</p>
+          </div>
+
+          <div class="form-group">
+            <label for="timeline">How soon do you want this sorted?</label>
+            <select id="timeline" name="timeline" required>
+              <option value="">Select one...</option>
+              <option>As soon as possible — it's costing me work</option>
+              <option>Within the next month</option>
+              <option>In the next 1–3 months</option>
+              <option>No rush, just exploring</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <span class="form-legend" id="also-legend">Anything else you need a hand with? <span class="opt">(tick any)</span></span>
+            <div class="check-grid" role="group" aria-labelledby="also-legend">
+              <label><input type="checkbox" name="also_interested" value="Local SEO"> Getting found on Google</label>
+              <label><input type="checkbox" name="also_interested" value="Google Ads"> Google Ads</label>
+              <label><input type="checkbox" name="also_interested" value="Social media"> Social media</label>
+              <label><input type="checkbox" name="also_interested" value="Logo &amp; branding"> Logo &amp; branding</label>
+              <label><input type="checkbox" name="also_interested" value="Online store"> Selling online</label>
+              <label><input type="checkbox" name="also_interested" value="Photos &amp; content"> Photos &amp; content</label>
+              <label><input type="checkbox" name="also_interested" value="Hosting &amp; maintenance"> Hosting &amp; upkeep</label>
+              <label><input type="checkbox" name="also_interested" value="Not sure yet"> Not sure yet</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <span class="form-legend" id="notpicked-legend">If you're not one of the five, what would you like us to do?</span>
+            <div class="radio-stack" role="radiogroup" aria-labelledby="notpicked-legend">
+              <label><input type="radio" name="if_not_selected" value="HOT — wants a paid quote" required> <span>Send me a quote for a paid build anyway — I want this done either way.</span></label>
+              <label><input type="radio" name="if_not_selected" value="WARM — wants pricing info"> <span>Send me your pricing and options so I can think about it.</span></label>
+              <label><input type="radio" name="if_not_selected" value="COOL — keep in touch later"> <span>Check back with me down the road — not right now.</span></label>
+              <label><input type="radio" name="if_not_selected" value="COLD — free spot only"> <span>Nothing thanks, I'm only interested in the free spot.</span></label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="budget">If we did quote you, what were you thinking? <span class="opt">(optional — no wrong answer)</span></label>
+            <select id="budget" name="budget">
+              <option value="">Rather not say</option>
+              <option>Under $500</option>
+              <option>$500 – $1,200</option>
+              <option>$1,200 – $2,500</option>
+              <option>$2,500+</option>
+              <option>No idea — tell me what it should cost</option>
+            </select>
+          </div>
+
+          <!-- CASL express consent — optional, never pre-checked -->
+          <div class="consent">
+            <label for="marketing_consent">
+              <input type="checkbox" id="marketing_consent" name="marketing_consent" value="Yes — express consent given">
+              <span>Yes, <strong>Muskoka Digital Boost</strong> can email me occasional tips, offers and updates about web design and local marketing.</span>
+            </label>
+            <p class="fine">
+              Optional — leaving this unchecked will not affect your application. We'll still contact you about this application either way.
+              You can withdraw consent at any time using the unsubscribe link in any email, or by emailing
+              <a href="mailto:asuter@muskokadigitalboost.ca">asuter@muskokadigitalboost.ca</a>.
+              Muskoka Digital Boost, Orillia, Ontario · (437) 225-1540
+            </p>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Apply for a Free Website →</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          <p class="privacy-note">We reply within 24 hours. We never sell or share your details.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FAQ ── -->
+  <section class="section section-white" aria-labelledby="faq-h">
+    <div class="container container-narrow">
+      <div class="section-head center reveal">
+        <div class="accent-bar"></div>
+        <span class="eyebrow">Straight answers</span>
+        <h2 id="faq-h" class="serif">The questions everyone asks</h2>
+      </div>
+      <div class="faq-list reveal d1">
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false"><span>Is it really free, or is this a bait-and-switch?</span><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><p>The design and build are genuinely free — that's normally $500 to $1,200. There's no upsell waiting at the end and nothing to sign. Hosting is the only thing that costs money, and it's optional: stay with us at a discounted $10/month for these five builds, or take the files and host it anywhere you like.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false"><span>What's in it for you?</span><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><p>Portfolio work and local word of mouth. We're building a book of real Muskoka businesses we can point new clients at. If the site earns you customers, you'll tell people — that's worth more to us than the build fee.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false"><span>Do I own the website?</span><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><p>Yes. It's your site on your domain, and we hand over the files. If you'd rather host it yourself or move it later, that's completely fine — there's no contract and no cancellation fee.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false"><span>What's the $10/month for, and do I have to take it?</span><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><p>No, it's optional. If you do want us to handle it, $10/month covers hosting, SSL, security updates, backups and small content edits — a discount on our usual $30/month, held for these five builds. If you'd rather host elsewhere, we'll hand over the files and help you get set up.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false"><span>How long does it take?</span><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><p>Most sites go live 7 to 14 days after we have your content. The main thing that slows a project down is waiting on photos and business details, so the faster you send those, the faster you launch.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false"><span>What if I don't like it?</span><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><p>You see a live preview before anything goes public, and we'll revise it. If you still don't want it, you walk away owing nothing. We'd rather lose the time than launch something you're not proud of.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false"><span>What happens when the 5 spots are gone?</span><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-a"><p>Applications close. If you applied and didn't make the five, we'll tell you — and we'll usually offer something reasonable rather than leaving you with nothing. Our <a href="pricing.html" style="color:var(--blue-600);font-weight:500">regular pricing</a> starts at $500.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FINAL CTA ── -->
+  <section class="section cta-band" aria-labelledby="cta-h">
+    <div class="container container-narrow">
+      <div class="section-head center reveal" style="margin-bottom:0">
+        <h2 id="cta-h" class="serif">Five businesses are going to get a free website.</h2>
+        <p style="margin-bottom:32px">It takes three minutes to put your name in. Worst case, you get an honest opinion about your current site.</p>
+        <div class="hero-ctas">
+          <a href="#apply" class="btn btn-light">Apply for a Free Website →</a>
+          <a href="tel:+14372251540" class="btn btn-ghost">Or call (437) 225-1540</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand" aria-label="Muskoka Digital Boost — home">
+          <svg viewBox="0 0 110 95" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="height:40px">
+            <rect x="0" y="72" width="18" height="18" rx="3" fill="#bfdbfe"/>
+            <rect x="24" y="48" width="18" height="42" rx="3" fill="#60a5fa"/>
+            <rect x="48" y="24" width="18" height="66" rx="3" fill="#2563eb"/>
+            <rect x="72" y="0" width="18" height="90" rx="3" fill="#e0f2fe"/>
+            <path d="M 4 68 Q 45 10 86 4" fill="none" stroke="#60a5fa" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+          </svg>
+          <span>
+            <span class="brand-name" style="display:block">Muskoka Digital Boost</span>
+            <span class="brand-tag" style="display:block">Web Development</span>
+          </span>
+        </a>
+        <p class="footer-about">Professional web development for Muskoka and Simcoe County businesses. Based in Orillia, Ontario.</p>
+      </div>
+      <nav aria-label="Footer — services">
+        <h2 class="foot-h">Services</h2>
+        <ul>
+          <li><a href="services.html#custom-websites">Custom Websites</a></li>
+          <li><a href="services.html#ecommerce">E-Commerce</a></li>
+          <li><a href="services.html#landing-pages">Landing Pages</a></li>
+          <li><a href="services.html#maintenance">Hosting &amp; Maintenance</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Footer — company">
+        <h2 class="foot-h">Company</h2>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="free-website.html">Free Website Offer</a></li>
+          <li><a href="service-areas.html">Service Areas</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="foot-h">Contact</h2>
+        <ul>
+          <li><a href="tel:+14372251540">(437) 225-1540</a></li>
+          <li><a href="mailto:asuter@muskokadigitalboost.ca">asuter@muskokadigitalboost.ca</a></li>
+          <li>Orillia, Ontario</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Muskoka Digital Boost. All rights reserved.</p>
+      <p>Web Development · Muskoka &amp; Simcoe County, Ontario</p>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky-cta">
+  <a href="#apply" class="btn btn-primary">Apply for a Free Website</a>
+  <a href="tel:+14372251540" class="tel" aria-label="Call (437) 225-1540">📞</a>
+</div>
+
+<script src="js/main.js" defer></script>
+<script>
+  /* Landing-page form submit — AJAX with a graceful fall-through to the
+     native POST/_next redirect if fetch fails. main.js only binds to
+     #contact-form, so this page's #apply-form is handled here. */
+  (function () {
+    var form = document.getElementById('apply-form');
+    if (!form) return;
+
+    /* Attribution — record which ad/creative sent this lead. Read-only from
+       the URL; nothing personal is ever put into a query string. */
+    var q = new URLSearchParams(window.location.search);
+    var set = function (name, value) {
+      var el = form.querySelector('input[name="' + name + '"]');
+      if (el && value) el.value = value.slice(0, 200);
+    };
+    set('ad_source', q.get('utm_source') || (q.get('fbclid') ? 'facebook' : ''));
+    set('ad_campaign', q.get('utm_campaign'));
+    set('ad_creative', q.get('utm_content') || q.get('utm_term'));
+    set('ad_placement', q.get('utm_medium'));
+    set('click_id', q.get('fbclid') || q.get('gclid'));
+    set('referrer', document.referrer);
+    set('submitted_from', window.location.origin + window.location.pathname);
+
+    var statusEl = document.getElementById('form-status');
+    var btn = form.querySelector('button[type="submit"]');
+    var label = btn.textContent;
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      btn.disabled = true;
+      btn.textContent = 'Sending...';
+      statusEl.className = 'form-status';
+      statusEl.textContent = '';
+      fetch(form.action, {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: new FormData(form)
+      }).then(function (res) {
+        if (!res.ok) throw new Error('bad response');
+        window.location.href = form.querySelector('input[name="_next"]').value;
+      }).catch(function () {
+        btn.disabled = false;
+        btn.textContent = label;
+        statusEl.className = 'form-status err';
+        statusEl.innerHTML = 'Something went wrong. Please call <a href="tel:+14372251540">(437) 225-1540</a> or email <a href="mailto:asuter@muskokadigitalboost.ca">asuter@muskokadigitalboost.ca</a>.';
+      });
+    });
+  })();
+</script>
+</body>
+</html>

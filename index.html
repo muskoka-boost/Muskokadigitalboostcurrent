@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muskoka Digital Boost | Web Design &amp; Development in Muskoka, Orillia &amp; Simcoe County</title>
+  <meta name="description" content="Muskoka Digital Boost builds custom, SEO-optimized websites for businesses in Muskoka, Orillia, Barrie &amp; Simcoe County. Websites from $500, live in 7–14 days.">
+  <link rel="canonical" href="https://muskokadigitalboost.ca/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Muskoka Digital Boost">
+  <meta property="og:locale" content="en_CA">
+  <meta property="og:title" content="Muskoka Digital Boost | Web Design &amp; Development">
+  <meta property="og:description" content="Custom, SEO-optimized websites for Muskoka &amp; Simcoe County businesses. From $500, live in 7–14 days.">
+  <meta property="og:url" content="https://muskokadigitalboost.ca/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://muskokadigitalboost.ca/#business",
+    "name": "Muskoka Digital Boost",
+    "description": "Web design and development studio building custom, SEO-optimized websites for small businesses in Muskoka and Simcoe County, Ontario.",
+    "url": "https://muskokadigitalboost.ca/",
+    "telephone": "+1-437-225-1540",
+    "email": "asuter@muskokadigitalboost.ca",
+    "priceRange": "$500 - $5000",
+    "address": { "@type": "PostalAddress", "addressLocality": "Orillia", "addressRegion": "ON", "addressCountry": "CA" },
+    "areaServed": ["Orillia", "Muskoka", "Barrie", "Bracebridge", "Huntsville", "Gravenhurst", "Midland", "Collingwood", "Parry Sound", "Simcoe County"],
+    "sameAs": [],
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Website Design" }, "price": "500", "priceCurrency": "CAD" },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Business Website" }, "price": "1200", "priceCurrency": "CAD" },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "E-Commerce Development" } }
+    ]
+  }
+  </script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="brand" aria-label="Muskoka Digital Boost — home">
+      <svg viewBox="0 0 110 95" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="0" y="72" width="18" height="18" rx="3" fill="#bfdbfe"/>
+        <rect x="24" y="48" width="18" height="42" rx="3" fill="#60a5fa"/>
+        <rect x="48" y="24" width="18" height="66" rx="3" fill="#2563eb"/>
+        <rect x="72" y="0" width="18" height="90" rx="3" fill="#1a2744"/>
+        <path d="M 4 68 Q 45 10 86 4" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+      </svg>
+      <span>
+        <span class="brand-name" style="display:block">Muskoka Digital Boost</span>
+        <span class="brand-tag" style="display:block">Web Development</span>
+      </span>
+    </a>
+    <div class="nav-links">
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="service-areas.html">Service Areas</a>
+      <a href="faq.html">FAQ</a>
+      <a href="free-website.html" class="nav-free">Free Website</a>
+      <a href="contact.html" class="btn btn-primary" style="padding:11px 22px">Get a Free Quote</a>
+    </div>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">
+      <svg class="ico-bars" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      <svg class="ico-close" style="display:none" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="mob-menu">
+    <div class="mob-menu-inner">
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="service-areas.html">Service Areas</a>
+      <a href="faq.html">FAQ</a>
+      <a href="free-website.html" class="nav-free">Free Website</a>
+      <a href="contact.html">Get a Free Quote</a>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+  <!-- HERO -->
+  <header class="hero">
+    <div class="grid-bg"></div>
+    <canvas id="particle-canvas" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <div class="hero-split">
+        <div class="hero-left">
+          <span class="hero-badge">
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            Muskoka · Simcoe County · Orillia
+          </span>
+          <h1 class="serif">Professional Websites for<br>
+            <span class="shimmer" data-typewriter='["Muskoka Businesses","Local Contractors","Orillia Shops","Simcoe County"]'>Muskoka Businesses</span><span class="cursor" aria-hidden="true"></span>
+          </h1>
+          <p class="hero-sub">Custom-built, fast, and designed to rank in local search. Helping Muskoka and Simcoe County businesses grow online.</p>
+          <div class="hero-ctas">
+            <a href="contact.html" class="btn btn-light">Get a Free Quote →</a>
+            <a href="services.html" class="btn btn-ghost">Our Services</a>
+          </div>
+          <div class="hero-stats">
+            <div><div class="num">$500</div><div class="lbl">Starting price</div></div>
+            <div><div class="num">7–14</div><div class="lbl">Day delivery</div></div>
+            <div><div class="num">Local</div><div class="lbl">Muskoka team</div></div>
+          </div>
+        </div>
+        <div class="hero-right float">
+          <div class="glass-card">
+            <span class="emoji" aria-hidden="true">🖥️</span>
+            <div><h3>Custom-Built Websites</h3><p>No templates. Every site is designed and coded to match your brand and goals.</p></div>
+          </div>
+          <div class="glass-card">
+            <span class="emoji" aria-hidden="true">🔍</span>
+            <div><h3>Built for Local SEO</h3><p>Every site includes SEO foundations to help your Muskoka business rank on Google.</p></div>
+          </div>
+          <div class="glass-card">
+            <span class="emoji" aria-hidden="true">💰</span>
+            <div><h3>Affordable &amp; Transparent</h3><p>Starting at $500 with $30/month hosting. Honest pricing, no hidden fees.</p></div>
+          </div>
+          <div class="glass-card">
+            <span class="emoji" aria-hidden="true">⚡</span>
+            <div><h3>Fast 7–14 Day Delivery</h3><p>Most websites launch within two weeks — without cutting corners on quality.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SERVICES -->
+  <section class="section section-white" aria-labelledby="services-h">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="accent-bar"></div>
+        <span class="eyebrow">Services</span>
+        <h2 id="services-h" class="serif">Web Development Services<br>for Local Businesses</h2>
+        <p>Everything your Muskoka or Simcoe County business needs to get online and grow.</p>
+      </div>
+      <div class="grid grid-4">
+        <article class="card reveal d1">
+          <div class="big-num serif">01</div>
+          <h3>Custom Builds</h3>
+          <p>Fully custom websites designed and built from scratch. Unique, mobile-ready, and optimized for local search.</p>
+          <ul class="checklist">
+            <li><span class="tick">✓</span>Up to 10+ pages</li>
+            <li><span class="tick">✓</span>Mobile responsive</li>
+            <li><span class="tick">✓</span>SEO foundations</li>
+            <li><span class="tick">✓</span>Contact forms</li>
+          </ul>
+        </article>
+        <article class="card reveal d2">
+          <div class="big-num serif">02</div>
+          <h3>E-Commerce</h3>
+          <p>Professional online stores built to sell. Easy for customers to shop, easy for you to manage.</p>
+          <ul class="checklist">
+            <li><span class="tick">✓</span>Product catalog</li>
+            <li><span class="tick">✓</span>Secure payments</li>
+            <li><span class="tick">✓</span>Inventory tools</li>
+            <li><span class="tick">✓</span>Admin dashboard</li>
+          </ul>
+        </article>
+        <article class="card reveal d3">
+          <div class="big-num serif">03</div>
+          <h3>Landing Pages</h3>
+          <p>Focused, high-converting pages built to turn ad clicks and referrals into leads and customers.</p>
+          <ul class="checklist">
+            <li><span class="tick">✓</span>Conversion-focused</li>
+            <li><span class="tick">✓</span>Lead capture</li>
+            <li><span class="tick">✓</span>Analytics ready</li>
+            <li><span class="tick">✓</span>3–5 day delivery</li>
+          </ul>
+        </article>
+        <article class="card reveal d4">
+          <div class="big-num serif">04</div>
+          <h3>Maintenance</h3>
+          <p>$30/month covers hosting, backups, updates, security, and support. Zero technical effort on your end.</p>
+          <ul class="checklist">
+            <li><span class="tick">✓</span>Hosting included</li>
+            <li><span class="tick">✓</span>Daily backups</li>
+            <li><span class="tick">✓</span>Security monitoring</li>
+            <li><span class="tick">✓</span>Content updates</li>
+          </ul>
+        </article>
+      </div>
+      <p class="reveal" style="text-align:center;margin-top:44px">
+        <a href="services.html" class="btn btn-outline">Explore All Services →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-band" aria-label="Key numbers">
+    <div class="spin-ring" style="width:256px;height:256px;top:-80px;right:-80px"></div>
+    <div class="spin-ring" style="width:192px;height:192px;bottom:-40px;left:-40px;animation-direction:reverse"></div>
+    <div class="container">
+      <div class="stats-grid">
+        <div class="reveal"><div class="num" data-count="100" data-suffix="%">0%</div><div class="lbl">Client Satisfaction</div></div>
+        <div class="reveal d1"><div class="num" data-count="14" data-suffix=" days">0 days</div><div class="lbl">Avg. Delivery Time</div></div>
+        <div class="reveal d2"><div class="num" data-count="30" data-prefix="$" data-suffix="/mo">$0/mo</div><div class="lbl">Hosting &amp; Maintenance</div></div>
+        <div class="reveal d3"><div class="num" data-count="500" data-prefix="$">$0</div><div class="lbl">Starting Price</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section section-tint" aria-labelledby="process-h">
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="accent-bar"></div>
+        <span class="eyebrow">Process</span>
+        <h2 id="process-h" class="serif">How We Work Together</h2>
+      </div>
+      <div class="grid grid-3">
+        <article class="process-card reveal d1">
+          <div class="step-num" aria-hidden="true">01</div>
+          <div class="step-icon bg-b700">💬</div>
+          <h3>Discovery Call</h3>
+          <p>A quick, no-pressure conversation to understand your business, audience, and what success looks like for your new website.</p>
+        </article>
+        <article class="process-card reveal d2">
+          <div class="step-num" aria-hidden="true">02</div>
+          <div class="step-icon bg-sky">🎨</div>
+          <h3>Design &amp; Build</h3>
+          <p>We design and build your site with your feedback throughout. Nothing goes live without your sign-off.</p>
+        </article>
+        <article class="process-card reveal d3">
+          <div class="step-num" aria-hidden="true">03</div>
+          <div class="step-icon bg-indigo">🚀</div>
+          <h3>Launch &amp; Support</h3>
+          <p>Your site goes live and we handle all technical details. Ongoing support, updates, and hosting — we stick around.</p>
+        </article>
+      </div>
+      <p class="reveal" style="text-align:center;margin-top:44px">
+        <a href="about.html" class="btn btn-outline">More About How We Work →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- PRICING TEASER -->
+  <section class="section section-white" aria-labelledby="pricing-h">
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="accent-bar"></div>
+        <span class="eyebrow">Pricing</span>
+        <h2 id="pricing-h" class="serif">Clear, Honest Pricing</h2>
+        <p>No surprises. No hidden costs. Just straightforward pricing in CAD.</p>
+      </div>
+      <div class="grid grid-3" style="max-width:1020px;margin:0 auto">
+        <article class="price-card reveal d1">
+          <span class="price-label">Starter</span>
+          <div class="price-amount serif">$500</div>
+          <div class="price-sub">+ $30/mo hosting &amp; maintenance</div>
+          <hr>
+          <ul class="checklist">
+            <li><span class="tick">✓</span>Up to 5 pages</li>
+            <li><span class="tick">✓</span>Mobile-responsive design</li>
+            <li><span class="tick">✓</span>Contact form</li>
+            <li><span class="tick">✓</span>Basic SEO setup</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline btn-block">Get Started</a>
+        </article>
+        <article class="price-card featured reveal d2">
+          <div class="price-badge">Most Popular</div>
+          <span class="price-label">Business</span>
+          <div class="price-amount serif">$1,200</div>
+          <div class="price-sub">+ $30/mo hosting &amp; maintenance</div>
+          <hr>
+          <ul class="checklist">
+            <li><span class="tick">✓</span>Up to 10 pages</li>
+            <li><span class="tick">✓</span>Custom design &amp; branding</li>
+            <li><span class="tick">✓</span>Full SEO optimization</li>
+            <li><span class="tick">✓</span>Google Business setup</li>
+          </ul>
+          <a href="contact.html" class="btn btn-light btn-block">Get Started</a>
+        </article>
+        <article class="price-card reveal d3">
+          <span class="price-label">E-Commerce</span>
+          <div class="price-amount serif">Custom</div>
+          <div class="price-sub">Based on your store's needs</div>
+          <hr>
+          <ul class="checklist">
+            <li><span class="tick">✓</span>Full product catalog</li>
+            <li><span class="tick">✓</span>Secure checkout</li>
+            <li><span class="tick">✓</span>Inventory management</li>
+            <li><span class="tick">✓</span>Admin dashboard</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline btn-block">Get a Quote</a>
+        </article>
+      </div>
+      <p class="reveal" style="text-align:center;margin-top:44px">
+        <a href="pricing.html" class="btn btn-outline">See Full Pricing Details →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- INDUSTRIES -->
+  <section class="section section-tint" aria-labelledby="industries-h">
+    <div class="container">
+      <div class="section-head center reveal">
+        <div class="accent-bar"></div>
+        <span class="eyebrow">Industries We Serve</span>
+        <h2 id="industries-h" class="serif">We Build Websites for<br>Every Kind of Local Business</h2>
+      </div>
+      <div class="industry-grid">
+        <div class="industry-tile reveal d1"><div class="emoji" aria-hidden="true">🏗️</div><h3>Contractors &amp; Trades</h3></div>
+        <div class="industry-tile reveal d2"><div class="emoji" aria-hidden="true">🍽️</div><h3>Restaurants &amp; Cafés</h3></div>
+        <div class="industry-tile reveal d3"><div class="emoji" aria-hidden="true">🛍️</div><h3>Retail &amp; Boutiques</h3></div>
+        <div class="industry-tile reveal d4"><div class="emoji" aria-hidden="true">🏕️</div><h3>Tourism &amp; Hospitality</h3></div>
+        <div class="industry-tile reveal d1"><div class="emoji" aria-hidden="true">💆</div><h3>Health &amp; Wellness</h3></div>
+        <div class="industry-tile reveal d2"><div class="emoji" aria-hidden="true">🏡</div><h3>Real Estate &amp; Rentals</h3></div>
+        <div class="industry-tile reveal d3"><div class="emoji" aria-hidden="true">🚗</div><h3>Auto &amp; Marine</h3></div>
+        <div class="industry-tile reveal d4"><div class="emoji" aria-hidden="true">⚖️</div><h3>Professional Services</h3></div>
+        <div class="industry-tile reveal d1"><div class="emoji" aria-hidden="true">🌿</div><h3>Landscaping &amp; Lawn Care</h3></div>
+        <div class="industry-tile reveal d2"><div class="emoji" aria-hidden="true">🐾</div><h3>Pet Services &amp; Vets</h3></div>
+        <div class="industry-tile reveal d3"><div class="emoji" aria-hidden="true">🎓</div><h3>Education &amp; Coaching</h3></div>
+        <div class="industry-tile reveal d4"><div class="emoji" aria-hidden="true">✨</div><h3>Beauty &amp; Salons</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREA -->
+  <section class="section section-dark" aria-labelledby="areas-h">
+    <div class="grid-bg" style="opacity:0.1"></div>
+    <div class="container" style="position:relative;z-index:2">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Service Area</span>
+        <h2 id="areas-h" class="serif">Web Design &amp; Development<br>Across Muskoka &amp; Simcoe County</h2>
+        <p>Based in Orillia, Ontario — wherever you're located, we've got you covered.</p>
+      </div>
+      <div class="grid grid-3">
+        <a href="service-areas.html" class="area-card reveal d1">
+          <h3>Orillia</h3>
+          <p>Our home base. We work closely with Orillia businesses and are available for in-person meetings.</p>
+          <span class="more">See our service areas →</span>
+        </a>
+        <a href="service-areas.html" class="area-card reveal d2">
+          <h3>Muskoka</h3>
+          <p>From Bracebridge to Huntsville to Gravenhurst — specialized websites for tourism, trades, and hospitality.</p>
+          <span class="more">See our service areas →</span>
+        </a>
+        <a href="service-areas.html" class="area-card reveal d3">
+          <h3>Barrie &amp; Simcoe County</h3>
+          <p>Serving businesses across Barrie, Midland, Collingwood, Penetanguishene, and surrounding areas.</p>
+          <span class="more">See our service areas →</span>
+        </a>
+      </div>
+      <p class="reveal" style="text-align:center;margin-top:40px;position:relative;z-index:2">
+        <a href="service-areas.html" class="btn btn-ghost">View All Service Areas →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ TEASER -->
+  <section class="section section-tint" aria-labelledby="faq-h">
+    <div class="container-narrow">
+      <div class="section-head center reveal">
+        <div class="accent-bar"></div>
+        <span class="eyebrow">FAQ</span>
+        <h2 id="faq-h" class="serif">Common Questions</h2>
+      </div>
+      <div class="faq-list reveal d1">
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">How much does a website cost in Muskoka?
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M12 6v12m6-6H6"/></svg>
+          </button>
+          <div class="faq-a"><p>Starter websites begin at $500 for up to 5 pages, plus $30/month for hosting and maintenance. Business websites start at $1,200. E-commerce is custom-quoted. All pricing is transparent — no surprises.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">How long does it take to build a website?
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M12 6v12m6-6H6"/></svg>
+          </button>
+          <div class="faq-a"><p>Most sites are live in 7–14 business days. Landing pages can be done in 3–5 days. Timeline depends largely on how quickly we receive your content and feedback.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Will my site rank on Google?
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M12 6v12m6-6H6"/></svg>
+          </button>
+          <div class="faq-a"><p>Every site includes SEO foundations — proper structure, meta tags, speed optimization, and mobile-first design. We specifically target local searches across Muskoka and Simcoe County.</p></div>
+        </div>
+      </div>
+      <p class="reveal" style="text-align:center;margin-top:36px">
+        <a href="faq.html" class="btn btn-outline">Read All FAQs →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band section" aria-labelledby="cta-h">
+    <div class="grid-bg"></div>
+    <div class="container" style="position:relative;z-index:2">
+      <div class="section-head center reveal" style="margin-bottom:36px">
+        <h2 id="cta-h" class="serif">Let's Build Something Great</h2>
+        <p>Free, no-obligation quote. We reply within 24 hours.</p>
+      </div>
+      <div class="hero-ctas reveal d1">
+        <a href="contact.html" class="btn btn-light">Get a Free Quote →</a>
+        <a href="tel:+14372251540" class="btn btn-ghost">Call (437) 225-1540</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand" aria-label="Muskoka Digital Boost — home">
+          <svg viewBox="0 0 110 95" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="height:40px">
+            <rect x="0" y="72" width="18" height="18" rx="3" fill="#bfdbfe"/>
+            <rect x="24" y="48" width="18" height="42" rx="3" fill="#60a5fa"/>
+            <rect x="48" y="24" width="18" height="66" rx="3" fill="#2563eb"/>
+            <rect x="72" y="0" width="18" height="90" rx="3" fill="#e0f2fe"/>
+            <path d="M 4 68 Q 45 10 86 4" fill="none" stroke="#60a5fa" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+          </svg>
+          <span>
+            <span class="brand-name" style="display:block">Muskoka Digital Boost</span>
+            <span class="brand-tag" style="display:block">Web Development</span>
+          </span>
+        </a>
+        <p class="footer-about">Professional web development for Muskoka and Simcoe County businesses. Based in Orillia, Ontario.</p>
+      </div>
+      <nav aria-label="Footer — services">
+        <h2 class="foot-h">Services</h2>
+        <ul>
+          <li><a href="services.html#custom-websites">Custom Websites</a></li>
+          <li><a href="services.html#ecommerce">E-Commerce</a></li>
+          <li><a href="services.html#landing-pages">Landing Pages</a></li>
+          <li><a href="services.html#maintenance">Hosting &amp; Maintenance</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Footer — company">
+        <h2 class="foot-h">Company</h2>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="free-website.html">Free Website Offer</a></li>
+          <li><a href="service-areas.html">Service Areas</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="foot-h">Contact</h2>
+        <ul>
+          <li><a href="tel:+14372251540">(437) 225-1540</a></li>
+          <li><a href="mailto:asuter@muskokadigitalboost.ca">asuter@muskokadigitalboost.ca</a></li>
+          <li>Orillia, Ontario</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Muskoka Digital Boost. All rights reserved.</p>
+      <p>Web Development · Muskoka &amp; Simcoe County, Ontario</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
